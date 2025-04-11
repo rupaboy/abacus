@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color:gainsboro;
+}
+
+#mainPanel {
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1.4em;
+    font-weight: 900;
+    line-height: 3em;
+    user-select: none;
+}
+
+.calcDisplayPanel {
+    padding: .5em;
+    margin-bottom: 1.4em;
+    border: 1px solid darkgrey;
+    background-color:silver;
+    min-height: 40px;
+    width: 100vw;
+    border-radius: .3em;
+}
+
+.calcUtilityPanel {
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+}
+
+.utilityButton {
+    background-color: burlywood;
+    color: blanchedalmond;
+    min-height: 46px;
+    min-width: 46px;
+    margin: 1px;
+}
+
+.calcOperatorPanel {
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+}
+
+.operatorButton {
+    background-color: cornflowerblue;
+    color: lightcyan;
+    min-height: 46px;
+    min-width: 46px;
+    margin: 1px;
+}
+
+.calcNumberPanel {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.numberButton {
+    background-color: lightgray;
+    color: slategray;
+    min-height: 46px;
+    min-width: 126px;
+    margin: 1px;
+}
+
+
